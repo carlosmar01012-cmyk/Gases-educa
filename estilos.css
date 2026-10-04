@@ -2152,3 +2152,34 @@ body {
     }
 
 }
+.footer-bottom-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-politica {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+    transition: .2s ease;
+}
+
+.footer-politica:hover {
+    color: #00d6c5;
+}
+
+@media screen and (max-width: 720px) {
+
+    .footer-bottom-links {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .footer-politica {
+        font-size: 10px;
+    }
+}
